@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
     max-width: 144rem;
     width: 100%;
-    height: 100%;
+    height: auto;
     
     display: flex;
     justify-content: center;
@@ -14,6 +14,7 @@ export const Container = styled.div`
 // =================== Img =====================//
 export const Img = styled.img`
     width: 60%;
+    padding-top: 5rem;
 `;
 // =================== Description =====================//
 export const AreaDescription = styled.div`
@@ -45,7 +46,7 @@ export const Text = styled.p`
     padding-top: 1rem;
     padding-bottom: 5rem;
 `;
-export const Bnt = styled.button`
+export const Bnt = styled.a`
     background: var(--buttons);
     border-radius: 10px;
 
@@ -54,11 +55,11 @@ export const Bnt = styled.button`
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5rem;
+    gap: 4rem;
 `;
 export const BntText = styled.p`
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 2.3rem;
     line-height: 2.7rem;
     text-align: center;
 

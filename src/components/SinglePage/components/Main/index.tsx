@@ -10,7 +10,7 @@ export const Main = () => {
                 <C.Title>Meu nome é</C.Title>
                 <C.Name>ALEXSANDER SANTOS</C.Name>
                 <C.Text>DESENVOLVEDOR FRONT-END JR.</C.Text>
-                <C.Bnt><C.BntImg src={WppIcon} /><C.BntText>FALE COMIGO</C.BntText></C.Bnt>
+                <C.Bnt href='https://wa.me/5581984125796' target="_blank"><C.BntImg src={WppIcon}/><C.BntText>FALE COMIGO</C.BntText></C.Bnt>
             </C.AreaDescription>
             <C.Img src={Img} />
         </C.Container>
