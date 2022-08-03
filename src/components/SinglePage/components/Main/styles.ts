@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    max-width: 144rem;
     width: 100%;
     height: auto;
     
@@ -13,7 +12,7 @@ export const Container = styled.div`
 `;
 // =================== Img =====================//
 export const Img = styled.img`
-    width: 60%;
+    width: 50%;
     padding-top: 5rem;
 `;
 // =================== Description =====================//

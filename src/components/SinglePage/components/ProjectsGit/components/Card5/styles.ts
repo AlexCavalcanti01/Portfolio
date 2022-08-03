@@ -10,6 +10,8 @@ export const Container = styled.div`
     justify-content: center;
     align-items: flex-start;
     padding-left: 3rem;
+
+    border-radius: 2rem;
 `;
 export const Title = styled.h2`
     font-weight: 700;

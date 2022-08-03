@@ -11,7 +11,6 @@ export const Container = styled.div`
 
     background: var(--body);
 `;
-
 export const Title = styled.h2`
     font-weight: 800;
     font-size: 3.6rem;
@@ -22,14 +21,16 @@ export const Title = styled.h2`
     padding-bottom: 14.4rem;
 `;
 export const CardArea = styled.div`
+    width: 100%;
+
     display: grid;
-    grid-template-columns: 400px 400px 400px;
+    grid-template-columns:  repeat(auto-fit, minmax(150px, 400px));
     grid-template-rows: 288px 288px;
     grid-column-gap: 5.8rem;
     grid-row-gap: 9.5rem;
 
     justify-content: center;
-    align-items: center;
+    padding-right: 3rem;
 `;
 export const Img = styled.img`
     width: 60%;

@@ -1,7 +1,7 @@
 import * as C from './styles';
 
 import Img from '../../../../assets/arte-inicial.svg';
-import WppIcon from '../../../../assets/wpp-icon.svg';
+import WppIcon from '../../../../assets/icon-wpp.svg';
 
 export const Main = () => {
     return (
