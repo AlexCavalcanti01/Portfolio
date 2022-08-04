@@ -9,6 +9,7 @@ export const Box = () => {
                     <C.Yellow/>
                     <C.BoxText>Faço parte da equipe de Desenvolvimento e QA do Frontend de uma solução de checkout para um dos maiores players do setor de pagamento do Nordeste.</C.BoxText>
                 </C.BoxOne>
+                <C.L />
                 <C.BoxTwo>
                    <C.BoxTitle>Curso Rocketseat IGNITE - React.JS</C.BoxTitle>
                     <C.Yellow/>
@@ -22,6 +23,7 @@ export const Box = () => {
                     <C.Yellow/>
                     <C.BoxText>Curso do Professor Gustavo Guanabara com duração de 40 Horas, onde contém muitos conteúdos, desafios tanto teóricos como práticos. Onde podemos praticar muito a lógica de programação  </C.BoxText>
                 </C.BoxOne>
+                <C.L />
                 <C.BoxTwo>
                     <C.BoxTitle>Curso em video - HTML5 e CSS3</C.BoxTitle>
                     <C.Yellow/>

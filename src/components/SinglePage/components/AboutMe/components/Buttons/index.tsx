@@ -12,10 +12,8 @@ export const BntLinkedin = () => {
                 <C.BntImg src={LinkedinIcon} />
                 <C.BntText>Linlkedin</C.BntText>
         </C.Container>
-        
     );
 }
-
 export const BntLink = () => {
     return (
         <C.Container

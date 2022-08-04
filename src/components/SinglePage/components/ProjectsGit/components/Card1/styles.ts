@@ -10,9 +10,19 @@ export const Container = styled.div`
     justify-content: center;
     align-items: flex-start;
     padding-left: 30px;
-    
 
     border-radius: 2rem;
+    @media(max-width: 850px) {
+        width: 500px;
+        height: 320px;
+        margin-left: -5rem;
+    }
+    @media(max-width: 540px) {
+        width: 350px;
+        height: 288px;
+        margin-left: 2rem;
+    }
+    
 `;
 export const Title = styled.h2`
     font-weight: 700;
@@ -22,7 +32,7 @@ export const Title = styled.h2`
     color: var(--text);
 `;
 export const Text = styled.p`
-    width: 29.7rem;
+    width: 95%;
     height: 12.6rem;
 
     font-weight: 400;
@@ -48,4 +58,7 @@ export const Bnt = styled.a`
     color: var(--text);
     background: var(--buttons);
     border-radius: 5px;
+    @media(max-width: 850px) {
+        width: 95%;
+    }
 `;

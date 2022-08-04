@@ -2,14 +2,8 @@ import styled from "styled-components";
 
 export const Container = styled.div`
     width: 100%;
-    height: 138rem;
+    height: 225%;
     background: var(--body);
-    @media(max-width: 1440px) {
-        height: 168rem;
-    }
-    @media(max-width: 1280px) {
-        height: 235rem;
-    }
     
     
 `;
@@ -19,8 +13,11 @@ export const PlanetArea = styled.div`
     @media(max-width: 1280px) {
         position: relative;
     }
+
 `;
-export const ImgPlanet = styled.img``;
+export const ImgPlanet = styled.img`
+    
+`;
 export const ImgArea = styled.div`
     margin-top: -30rem;
     position: absolute;
@@ -28,8 +25,22 @@ export const ImgArea = styled.div`
     @media(max-width: 1440px) {
         margin: auto;
     }
+    @media(max-width: 930px) {
+        height: 53.2rem;
+        margin-top: 3rem;
+    }
+    @media(max-width: 605px) {
+        height: 32rem;
+        
+    }
 `;
-export const ImgPerson = styled.img``;
+export const ImgPerson = styled.img`
+    @media(max-width: 930px) {height: 80%;}
+    @media(max-width: 685px) {height: 65%;}
+    @media(max-width: 605px) {height: 100%;}
+    @media(max-width: 605px) {display: none;}
+
+`;
 export const Title = styled.h2`
     font-weight: 800;
     font-size: 3.6rem;

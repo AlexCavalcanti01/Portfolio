@@ -33,7 +33,10 @@ export const AreaImg = styled.div`
     
     background: var(--buttons);
     border-radius: 300px;
-    
+    @media(max-width: 540px) {
+        width: 35rem;
+        height: 35rem;
+    }
 `;
 export const Img = styled.img`
     width: 98%;
@@ -78,8 +81,5 @@ export const BtnArea = styled.div`
     gap: 8rem;
     @media(max-width: 1080px) {
         gap: 4rem;
-    }
-    @media(max-width: 930px) {
-        gap: 2rem;
     }
 `;

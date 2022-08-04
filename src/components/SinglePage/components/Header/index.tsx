@@ -1,18 +1,14 @@
-import { useState } from 'react';
 import * as C from './styles';
 
+import IconMenuBurguer from '../../../../assets/menu-hamburguer.svg'
+
 export const Header = () => {
-    const Menu = [
-        {id:0, name:'Sobre Mim' },
-        {id:1, name:'Projetos'},
-        {id:2, name:'Skills'},
-        {id:3, name:'Educação'}
-    ]
-    const [click, setClick] = useState(0);
+    const Menu = ['Sobre Mim', 'Projetos', 'Skills', 'Educação'];
+    
     return (
-        
         <C.Container >
-                {Menu.map((Props) => <C.MenuItem onClick={()=>setClick(Props.id)} id={Props.id} idActive={click} key={Props.id}>{Props.name}</C.MenuItem>)}
+                {Menu.map((Props) => <C.MenuItem>{Props.toString()}</C.MenuItem>)}
+                <C.MenuBurguer src={IconMenuBurguer} />
         </C.Container>
     );
 }
