@@ -30,7 +30,16 @@ export const CardArea = styled.div`
     grid-row-gap: 9.5rem;
 
     justify-content: center;
-    padding-right: 3rem;
+    
+    @media(max-width: 1313px) {
+        grid-column-gap: 13rem;
+    }
+    @media(max-width: 1080px) {
+        grid-column-gap: 8rem;
+    }
+    @media(max-width: 975px) {
+        grid-column-gap: 5.5rem;
+    }
 `;
 export const Img = styled.img`
     width: 60%;

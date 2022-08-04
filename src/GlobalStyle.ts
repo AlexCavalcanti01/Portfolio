@@ -9,6 +9,7 @@ const GlobalStyle = createGlobalStyle`
         --text: #ffffff;
         --sections: #2c2c2c;
         --buttons: #F9A826;
+        transition: all 0.15s ease-in-out;
     }
     html {
         /* a cada 1rem será considera 10px */

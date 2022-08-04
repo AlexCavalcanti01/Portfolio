@@ -8,8 +8,12 @@ export const Container = styled.div`
                          "   .     oneBox  oneBox "
                          " twoBox  twoBox     .   ";
     grid-row-gap: 10.8rem;
+    @media(max-width: 930px) {
+        display: flex;
+        flex-direction: column;
+    }
 `;
-export const OneBoxArea = styled.div`
+export const BoxOneArea = styled.div`
     width: 100%;
     height: 33.2rem;
 
@@ -22,7 +26,7 @@ export const OneBoxArea = styled.div`
 
     grid-area: oneBox;
 `;
-export const TwoBoxArea = styled.div`
+export const BoxTwoArea = styled.div`
     width: 100%;
     height: 33.2rem;
 
@@ -49,6 +53,9 @@ export const BoxTitle = styled.h3`
     font-size: 1.7rem;
     line-height: 2.5rem;
     text-align: center;
+    @media(max-width: 1080px) {
+        font-size: 1.2;
+    }
 `;
 export const Yellow = styled.div`
     width: auto;
@@ -68,4 +75,10 @@ export const BoxText = styled.p`
 
     padding-top: 2.3rem;
     padding-left: 1.3rem;
+
+    @media(max-width: 1080px) {
+        padding-top: 2.5rem;
+        font-size: 1.5rem;
+    }
+    
 `;

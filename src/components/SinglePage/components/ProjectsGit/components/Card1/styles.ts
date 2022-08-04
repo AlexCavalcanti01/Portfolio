@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    width: 400px;
+    width: 370px;
     height: 288px;
     background: var(--sections);
 
@@ -9,7 +9,8 @@ export const Container = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding-left: 3rem;
+    padding-left: 30px;
+    
 
     border-radius: 2rem;
 `;

@@ -10,6 +10,17 @@ export const Container = styled.div`
     gap: 18.9rem;
 
     background: var(--sections);
+    @media(max-width: 1080px) {
+        gap: 13rem;
+    }
+    @media(max-width: 975px) {
+        gap: 9rem;
+    }
+    @media(max-width: 930px) {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
 `;
 // ================= Img ==================//
 export const AreaImg = styled.div`
@@ -22,6 +33,7 @@ export const AreaImg = styled.div`
     
     background: var(--buttons);
     border-radius: 300px;
+    
 `;
 export const Img = styled.img`
     width: 98%;
@@ -32,6 +44,12 @@ export const Img = styled.img`
 // ================= Description ==================//
 export const AreaDescription = styled.div`
     width: 40%;
+    @media(max-width: 930px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 `;
 export const Title = styled.h2`
     font-weight: 800;
@@ -48,8 +66,20 @@ export const Text = styled.p`
 
     padding-top: 4.5rem;
     padding-bottom: 3.3rem;
+    @media(max-width: 1280px) {
+        width: auto;
+    }
+    @media(max-width: 930px) {
+        width: 40rem;
+    }
 `;
 export const BtnArea = styled.div`
     display: flex;
     gap: 8rem;
+    @media(max-width: 1080px) {
+        gap: 4rem;
+    }
+    @media(max-width: 930px) {
+        gap: 2rem;
+    }
 `;

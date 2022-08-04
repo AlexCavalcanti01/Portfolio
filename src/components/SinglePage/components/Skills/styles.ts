@@ -7,6 +7,12 @@ export const Container = styled.div`
     display: flex;
 
     background: var(--sections);
+    @media(max-width: 930px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 `;
 export const Container1 = styled.div`
     width: 50%;
@@ -17,6 +23,10 @@ export const Container1 = styled.div`
     gap: 3.6rem;
 
     padding-left: 15.2rem;
+    @media(max-width: 930px) {
+        padding-left: 2.5rem;
+        padding-top: 5rem;
+    }
 `;
 export const Title = styled.h2`
     width: 90%;
@@ -26,8 +36,13 @@ export const Title = styled.h2`
     line-height: 4.9rem;
 `;
 export const Text = styled.p`
-    width: 90%;
-    height: 25.3rem; 
+    width: 100%;
+    height: 25.3rem;
+    @media(max-width: 930px) {
+        height: auto;
+        padding-bottom: 8rem;
+
+    }
 `;
 
 export const Container2 = styled.div`
@@ -40,6 +55,11 @@ export const Container2 = styled.div`
     grid-row-gap: 2rem;
     align-content: center;
     justify-content: center;
+    @media(max-width: 930px) {
+        display: flex;
+        gap: 2rem;
+    }
+    
 `;
 export const IconHTML = styled.img`
     grid-area: html;

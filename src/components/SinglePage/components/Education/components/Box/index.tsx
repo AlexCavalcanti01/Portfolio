@@ -3,7 +3,7 @@ import * as C from './styles';
 export const Box = () => {
     return (
         <C.Container>
-            <C.OneBoxArea>
+            <C.BoxOneArea>
                 <C.BoxOne>
                     <C.BoxTitle>Desenvolvedor Júnior, Neat Solutions, Recife-PE</C.BoxTitle>
                     <C.Yellow/>
@@ -14,9 +14,9 @@ export const Box = () => {
                     <C.Yellow/>
                     <C.BoxText>Curso com cinco etapas vindo de seu fundamento a atualidade do React. contendo conteudos que ajudam na eficiência de produção, agilidade e qualidade de interface WEB.</C.BoxText>
                 </C.BoxTwo>
-            </C.OneBoxArea>
+            </C.BoxOneArea>
 
-            <C.TwoBoxArea>
+            <C.BoxTwoArea>
                 <C.BoxOne>
                     <C.BoxTitle>Curso em video - JavaScript</C.BoxTitle>
                     <C.Yellow/>
@@ -27,8 +27,7 @@ export const Box = () => {
                     <C.Yellow/>
                     <C.BoxText>Curso do Professor Gustavo Guanabara com duração de 40 Horas, falando sobre varios conteúdos de HTML e CSS. Com começo desde seus fundamentos até uma das suas versões mais atualizadas do cenário.</C.BoxText>
                 </C.BoxTwo> 
-            </C.TwoBoxArea>
-              
+            </C.BoxTwoArea>
         </C.Container>
     );
 }

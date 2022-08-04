@@ -9,11 +9,21 @@ export const Container = styled.div`
     align-items: center;
 
     background: var(--body);
+    @media(max-width: 930px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 `;
 // =================== Img =====================//
 export const Img = styled.img`
     width: 50%;
     padding-top: 5rem;
+    @media(max-width: 930px) {
+        margin-left: -6rem;
+        order: -1;
+    }
 `;
 // =================== Description =====================//
 export const AreaDescription = styled.div`
@@ -27,6 +37,23 @@ export const AreaDescription = styled.div`
 
     padding-left: 2.5rem;
     margin-left: 5rem;
+    @media(max-width: 1080px) {
+        margin-right: -5rem;
+    }
+    @media(max-width: 975px) {
+        margin-right: -10rem;
+    }
+    @media(max-width: 930px) {
+        width: 100%;
+
+        padding-top: 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: unset;
+        margin: unset;
+    }
+    
 `;
 export const Title = styled.h3`
     font-size: 2.4rem;
@@ -44,6 +71,11 @@ export const Text = styled.p`
 
     padding-top: 1rem;
     padding-bottom: 5rem;
+
+    @media(max-width: 930px) {
+        font-size: 1.9rem;
+        padding-bottom: 2rem;
+    }
 `;
 export const Bnt = styled.a`
     background: var(--buttons);
